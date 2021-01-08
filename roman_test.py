@@ -1,8 +1,9 @@
 import pytest
 import roman
+from collections import OrderedDict
 
 
-single_digit_values = (
+single_digit_values = OrderedDict([
     (1, 'I'),
     (2, 'II'),
     (3, 'III'),
@@ -12,10 +13,11 @@ single_digit_values = (
     (7, 'VII'),
     (8, 'VIII'),
     (9, 'IX')
+    ]
 )
 
 
-extended_known_values = (
+extended_known_values = OrderedDict([
     (1, 'I'),
     (2, 'II'),
     (3, 'III'),
@@ -72,7 +74,7 @@ extended_known_values = (
     (3888, 'MMMDCCCLXXXVIII'),
     (3940, 'MMMCMXL'),
     (3999, 'MMMCMXCIX')
-)
+])
 
 
 def test_single_arabic_digits_are_converted_correctly():
@@ -98,5 +100,3 @@ def test_number_greater_than_3999_raises_exception():
 def test_numbers_are_converted_correctly():
     for digit, numeral in extended_known_values:
         assert roman.to_roman(digit) == numeral
-
-
