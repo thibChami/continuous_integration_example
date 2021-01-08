@@ -39,7 +39,7 @@ for k, v in base_numerals.items():
 base_numbers = sorted(base_conversions.keys(), reverse=True)
 
 
-def roman_to_int(roman_numeral):
+def to_roman(roman_numeral):
     """Convert from Roman numerals to an integer. Number must be < 4000."""
     if not roman_numeral_validator.match(roman_numeral):
         raise InvalidRomanNumeralError('invalid roman numeral')

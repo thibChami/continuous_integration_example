@@ -100,17 +100,3 @@ def test_numbers_are_converted_correctly():
         assert roman.to_roman(digit) == numeral
 
 
-def test_too_many_repeated_numeral_letters():
-    for numeral in ('MMMM', 'DD', 'CCCC', 'LL', 'XXXX', 'VV', 'IIII'):
-        with pytest.raises(roman.InvalidRomanNumeralError):
-            roman.from_roman(numeral)
-
-
-def test_numerals_are_converted_correctly():
-    for digit, numeral in extended_known_values:
-        assert roman.from_roman(numeral) == digit
-
-
-def test_sanity_check_to_then_from_roman():
-    for i in range(1, 3999):
-        assert i == roman.from_roman(roman.to_roman(i))
