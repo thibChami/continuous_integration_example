@@ -3,18 +3,14 @@ jobs:
   include:
     - name: "Python on Xenial Linux"
       python: 3.7
-    - name: "Python on macOS"
-      os: osx
-      osx_image: xcode11.2
-      language: shell       # 'language: python' is an error on Travis CI macOS
     - name: "Python on Windows"
       os: windows
       language: shell       # 'language: python' is an error on Travis CI Windows
       before_install:
         - choco install python --version 3.7.0
         - py -m pip install --upgrade pip
-        - pip install pytest
       env: PATH=/c/Python38:/c/Python38/Scripts:$PATH
 install: pip3 install --upgrade pip
+  - pip install pytest
 script:
     - pytest
