@@ -3,11 +3,7 @@ jobs:
   include:
     - name: "Python on Xenial Linux"
       python:
-        - "3.8"
-        # PyPy versions
-      - "pypy3"  # currently Python 3.6.1,  PyPy 7.1.1-beta0
-      before_install:
-
+        3.8
       env: PATH=/c/Python38:/c/Python38/Scripts:$PATH
 install:
 script:
