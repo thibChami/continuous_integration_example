@@ -9,8 +9,8 @@ jobs:
       before_install:
         - choco install python --version 3.7.0
         - py -m pip install --upgrade pip
-        - pip3 install pytest
       env: PATH=/c/Python38:/c/Python38/Scripts:$PATH
 install:
 script:
+    - pip3 install pytest || pip install pytest
     - python -m pytest || py -m pytest || pytest || py.test
