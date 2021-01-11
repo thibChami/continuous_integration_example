@@ -12,4 +12,4 @@ jobs:
       env: PATH=/c/Python38:/c/Python38/Scripts:$PATH
 install:
 script:
-    - py.test
+    - python -m pytest || py -m pytest || pytest || py.test
