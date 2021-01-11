@@ -3,14 +3,10 @@ jobs:
   include:
     - name: "Python on Xenial Linux"
       python: 3.7
-    - name: "Python on Windows"
-      os: windows
-      language: shell       # 'language: python' is an error on Travis CI Windows
       before_install:
-        - choco install python --version 3.7.0
+        - choco install python --version 3.8.0
         - py -m pip install --upgrade pip
       env: PATH=/c/Python38:/c/Python38/Scripts:$PATH
 install:
 script:
-    - pip3 install pytest || pip install pytest
     - python -m pytest || py -m pytest || pytest || py.test
