@@ -2,8 +2,12 @@ language: python            # this works for Linux but is an error on macOS or W
 jobs:
   include:
     - name: "Python on Xenial Linux"
-      python: 3.7
-              2.7
+      python:
+        - "2.7"
+        - "3.8"
+        # PyPy versions
+      - "pypy"   # currently Python 2.7.13, PyPy 7.1.1
+      - "pypy3"  # currently Python 3.6.1,  PyPy 7.1.1-beta0
       before_install:
 
       env: PATH=/c/Python38:/c/Python38/Scripts:$PATH
