@@ -27,5 +27,6 @@ Allez sur https://travis-ci.com/ et connectez-vous avec votre compte Github.
 
 
 ## Exercices
+reparer le code façon a ce que les tests reussissent.
 ### 1. sum_test.py Améliorez la couverture du code en écrivant un test qui vérifie le type de valeur retournée.
 ### 2.
