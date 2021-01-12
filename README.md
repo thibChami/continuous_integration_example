@@ -7,9 +7,13 @@ Forkez ce repo sur votre compte.
 Allez sur https://travis-ci.com/ et connectez-vous avec votre compte Github.
 Activate Github Application.
 Ne paniquez pas vous allez être redirigé sur Github -> Approve & Install.
+
 ![Imgur](https://i.imgur.com/MP15GTW.png)
+
 Allez sur "Manage repositories" puis "Select repositories".
+
 ![Imgur](https://i.imgur.com/bA9OuLA.png)
+
 Vous pouvez ensuite Commit et Push de façon à ce que Travis declenche le build.
 Comme vous pouvez le voir... c'est cassé.
 
