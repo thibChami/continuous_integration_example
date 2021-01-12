@@ -20,6 +20,12 @@ Using Travis CI, you can automatically test every commit you push on github.
  * Now, each time you'll push a commit on github, your full code will be tested.
  * You can setup Travis in your settings to only test master branch, every branch, the pull requests, etc.
 
+ ---------------------------------
+## Installation
+Forkez ce repo sur votre compte.
+Allez sur https://travis-ci.com/ et connectez-vous avec votre compte Github.
+
+
 ## Exercices
 ### 1. sum_test.py Améliorez la couverture du code en écrivant un test qui vérifie le type de valeur retournée.
 ### 2.
