@@ -22,13 +22,16 @@ Using Travis CI, you can automatically test every commit you push on github.
 
  ---------------------------------
 ## Installation
+
 Forkez ce repo sur votre compte.
 Allez sur https://travis-ci.com/ et connectez-vous avec votre compte Github.
-Allez sur "Manage repositories" puis "Select repositories"
+Activate Github Application.
+Ne paniquez pas vous allez être redirigé sur Github -> Approve & Install.
+Allez sur "Manage repositories" puis "Select repositories".
 Vous pouvez ensuite Commit et Push de façon à ce que Travis declenche le build.
 Comme vous pouvez le voir... c'est cassé
 
 
 ## Exercices
 ### 1.sum.py Réparer le code façon à ce que les tests réussissent.
-### 2.sum_test.py Améliorez la couverture du code en écrivant un test qui vérifie le type de valeur retournée.
+### 2.sum_test.py Améliorez la couverture du code en écrivant un test qui vérifie le type de valeur retournée. Observez votre taux de couverture augmenter.
