@@ -15,6 +15,13 @@ Allez sur "Manage repositories" puis "Select repositories".
 ![Imgur](https://i.imgur.com/bA9OuLA.png)
 
 Vous pouvez ensuite Commit et Push de façon à ce que Travis declenche le build.
+(placez-vous dans le dossier)
+```
+git add .
+git commit -m "message"
+git push
+```
+
 Comme vous pouvez le voir... c'est cassé.
 
 
