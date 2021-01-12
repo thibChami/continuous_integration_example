@@ -29,9 +29,9 @@ Activate Github Application.
 Ne paniquez pas vous allez être redirigé sur Github -> Approve & Install.
 Allez sur "Manage repositories" puis "Select repositories".
 Vous pouvez ensuite Commit et Push de façon à ce que Travis declenche le build.
-Comme vous pouvez le voir... c'est cassé
+Comme vous pouvez le voir... c'est cassé.
 
 
 ## Exercices
-### 1.sum.py Réparer le code façon à ce que les tests réussissent.
-### 2.sum_test.py Améliorez la couverture du code en écrivant un test qui vérifie le type de valeur retournée. Observez votre taux de couverture augmenter.
+### 1. sum.py Réparer le code pour que les tests réussissent.
+### 2. sum_test.py Améliorez la couverture du code en écrivant un test qui vérifie le type de valeur retournée. Observez votre taux de couverture augmenter.
