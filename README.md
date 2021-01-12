@@ -34,5 +34,4 @@ Comme vous pouvez le voir... c'est cassé.
 
 ## Exercices
 ### 1. sum.py / Réparer le code pour que les tests réussissent.
-### 2. sum_test.py / Améliorez la couverture du code en écrivant un test qui vérifie le type de valeur retournée. Observez votre taux de couverture augmenter.
-### Bonus. Augmentez encore le coverage.
+### 2. sum_test.py / écrire un test qui vérifie le type de valeur retournée, et vérifier que les tests sont bons.
