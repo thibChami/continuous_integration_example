@@ -33,5 +33,5 @@ Comme vous pouvez le voir... c'est cassé.
 
 
 ## Exercices
-### 1. sum.py / Réparer le code pour que les tests réussissent.
-### 2. sum_test.py / écrire un test qui vérifie le type de valeur retournée, et vérifier que les tests sont bons.
+### 1. sum_test.py / Ajoutez des tests pour que la somme des éléments de la liste soit égale à 10, 24 et 27.
+### 2. sum_test.py / Ajoutez un test pour s'assurer que tout les éléments de la liste soit bien des entiers.
